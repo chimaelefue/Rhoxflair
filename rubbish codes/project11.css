@@ -1,0 +1,38 @@
+.photo-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ img{
+     /* width: 50%; */
+     height: 11em;
+     display: block;
+ }
+
+ .photo{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     grid-template-areas: 
+     "imga imgb"
+     "captiona captiona";
+ }
+
+ .imga{
+     grid-area: imga;
+ }
+
+ .imgb{
+     grid-area: imgb;
+ }
+
+ .captiona{
+     grid-area: captiona;
+     margin: 0.3rem 0;
+ }
+
+ h3{
+     text-align: center;
+     
+ }
+ 
